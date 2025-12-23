@@ -6,6 +6,7 @@ import Services from './pages/Services';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
+import MentionsLegales from './pages/Mentions-légales';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <Portfolio />
       <Contact />
+      <MentionsLegales />
       <Footer />
     </div>
   );
