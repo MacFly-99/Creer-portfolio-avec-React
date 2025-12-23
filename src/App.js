@@ -2,8 +2,8 @@ import React from 'react';
 import MyNavbar from './pages/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
-
-import Home from './pages/Home'
+import Services from './pages/Services';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
       <MyNavbar />
       <Home />
       <About />
+      <Services />
+      <Portfolio />
     </div>
   );
 }

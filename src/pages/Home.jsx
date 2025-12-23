@@ -34,7 +34,6 @@ function Home() {
         id="home"
         className="d-flex align-items-center justify-content-center text-center text-white"
         style={{
-          backgroundImage: `url(/images/hero-bg.jpg)`,
           backgroundImage: 'url(/images/hero-bg.jpg)',  // Image accessible dans le dossier public
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -50,10 +49,6 @@ function Home() {
         }} />
 
         <Container className="position-relative">
-          <h1 style={{ fontSize: '5rem', fontWeight: '600' }}>
-            Bonjour, je suis Ventura Mattéo
-          </h1>
-          <h2 style={{ fontSize: '3rem', fontWeight: '400' }}>
           <h1 style={{ fontSize: '4.5rem', fontWeight: '600' }}>
             Bonjour, je suis Ventura Mattéo
           </h1>
