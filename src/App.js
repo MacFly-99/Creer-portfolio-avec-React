@@ -3,6 +3,7 @@ import MyNavbar from './pages/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 
+import Home from './pages/Home'
 
 function App() {
   return (
