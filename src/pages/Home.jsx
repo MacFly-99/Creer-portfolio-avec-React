@@ -49,10 +49,10 @@ function Home() {
         }} />
 
         <Container className="position-relative">
-          <h1 style={{ fontSize: '5rem', fontWeight: '600' }}>
+          <h1 style={{ fontSize: '4.5rem', fontWeight: '600' }}>
             Bonjour, je suis Ventura Mattéo
           </h1>
-          <h2 style={{ fontSize: '3rem', fontWeight: '400' }}>
+          <h2 style={{ fontSize: '2.8rem', fontWeight: '400' }}>
             Développeur Web en formation CEF
           </h2>
           <Button 
