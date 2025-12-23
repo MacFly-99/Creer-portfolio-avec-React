@@ -14,7 +14,7 @@ function About() {
                 position: 'absolute',
                 bottom: '-10px',
                 left: 0,
-                width: '550px',
+                width: '520px',
                 height: '5px',
                 backgroundColor: '#0d6efd'
               }}></span>
@@ -27,7 +27,7 @@ function About() {
                 position: 'absolute',
                 bottom: '-10px',
                 right: 0,
-                width: '550px',
+                width: '520px',
                 height: '5px',
                 backgroundColor: '#0d6efd'
               }}></span>
