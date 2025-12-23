@@ -29,7 +29,7 @@ function Home() {
 
   return (
     <>
-      {/* Hero section */}
+
       <section 
         id="home"
         className="d-flex align-items-center justify-content-center text-center text-white"
