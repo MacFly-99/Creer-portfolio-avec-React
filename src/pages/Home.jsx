@@ -95,7 +95,7 @@ function Home() {
                 roundedCircle
                 width="150"
                 height="150"
-                className="mb-4"
+                className="mb-4 img-fluid"
                 alt="Avatar GitHub"
               />
               <h3>{githubData.name || githubData.login}</h3>

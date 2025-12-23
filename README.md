@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+This project is my portfolio made with React and Bootstrap. For can open it you will just need to have on your device a npm packages manager, you will need to understand at least how to create an application with React.JS and Bootstrap. And you will need to understand the difference between SPA et MPA like what provides for an application ReactRouter.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -11,7 +13,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will not when you make changes.\
 You may also see any lint errors in the console.
 
 ### `npm test`

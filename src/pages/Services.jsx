@@ -4,7 +4,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 function Services() {
   return (
     <div id="services" style={{ paddingTop: '80px' }}>
-      {/* Bannière seule en haut (image de fond pleine largeur) */}
+      {/* Bannière seule en haut */}
       <div 
         style={{ 
           backgroundImage: 'url(/images/banner.jpg)',  // Image de bannière accessible dans dossier public 

@@ -8,7 +8,7 @@ function Portfolio() {
       <div
         id="portfolio"
         style={{
-          backgroundImage: 'url(/images/banner.jpg)', // Assure-toi que l'image est dans public/images
+          backgroundImage: 'url(/images/banner.jpg)', // Toutes les images de cette page se trouve dans le dossier portfolio, dans le dossier images, dans le dossier public
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           minHeight: '60vh',
@@ -55,6 +55,7 @@ function Portfolio() {
                   variant="top"
                   src="/images/portfolio/fresh-food.jpg"
                   alt="Fresh Food"
+                  className="img-fluid"
                   style={{ height: '200px', objectFit: 'cover' }}
                 />
                 <Card.Body className="p-4">
@@ -79,6 +80,7 @@ function Portfolio() {
                   variant="top"
                   src="/images/portfolio/restaurant-japonais.jpg"
                   alt="Restaurant Akira"
+                  className="img-fluid"
                   style={{ height: '200px', objectFit: 'cover' }}
                 />
                 <Card.Body className="p-4">
@@ -103,6 +105,7 @@ function Portfolio() {
                   variant="top"
                   src="/images/portfolio/espace-bien-etre.jpg"
                   alt="Espace bien-être"
+                  className="img-fluid"
                   style={{ height: '200px', objectFit: 'cover' }}
                 />
                 <Card.Body className="p-4">
@@ -127,6 +130,7 @@ function Portfolio() {
                   variant="top"
                   src="/images/portfolio/seo.jpg"
                   alt="SEO"
+                  className="img-fluid"
                   style={{ height: '200px', objectFit: 'cover' }}
                 />
                 <Card.Body className="p-4">
@@ -151,6 +155,7 @@ function Portfolio() {
                   variant="top"
                   src="/images/portfolio/coder.jpg"
                   alt="Création d'une API"
+                  className="img-fluid"
                   style={{ height: '200px', objectFit: 'cover' }}
                 />
                 <Card.Body className="p-4">
@@ -175,6 +180,7 @@ function Portfolio() {
                   variant="top"
                   src="/images/portfolio/screens.jpg"
                   alt="Maquette d'un site web"
+                  className="img-fluid"
                   style={{ height: '200px', objectFit: 'cover' }}
                 />
                 <Card.Body className="p-4">
