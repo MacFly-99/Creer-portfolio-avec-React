@@ -54,6 +54,10 @@ strong {
   font-weight: 600 !important;
 }
 
+
+
+/* NAVBAR */
+
 .navbar-nav .nav-link {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 500;
@@ -79,4 +83,13 @@ strong {
   border-bottom: 3px solid #fff;
   padding-bottom: 5px;
   color: #fff !important;
+}
+
+
+
+/* HOME */
+
+.btn-primary:hover, .btn-info:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
 }

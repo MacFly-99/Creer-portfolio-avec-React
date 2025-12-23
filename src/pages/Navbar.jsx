@@ -5,7 +5,7 @@ function MyNavbar() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand href="#home">John DOE</Navbar.Brand>
+        <Navbar.Brand href="#home">Mattéo Ventura</Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
