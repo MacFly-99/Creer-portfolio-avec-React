@@ -1,25 +1,38 @@
 import React from 'react';
-import MyNavbar from './pages/Navbar';
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-import Footer from './pages/Footer';
-import MentionsLegales from './pages/Mentions-légales';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// Pages
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import Services from './pages/Services.jsx';
+import Portfolio from './pages/Portfolio.jsx';
+import Contact from './pages/Contact.jsx';
+import MentionsLegales from './pages/MentionsLegales.jsx';
+
+// Composants communs
+import Navbar from './pages/Navbar.jsx';
+import Footer from './pages/Footer.jsx';
 
 function App() {
   return (
-    <div>
-      <MyNavbar />
-      <Home />
-      <About />
-      <Services />
-      <Portfolio />
-      <Contact />
-      <MentionsLegales />
-      <Footer />
-    </div>
+    <Router>
+      <div className="d-flex flex-column min-vh-100">
+        <Navbar />
+
+        <main className="flex-fill">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/a-propos" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/mentions-legales" element={<MentionsLegales />} />
+          </Routes>
+        </main>
+
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

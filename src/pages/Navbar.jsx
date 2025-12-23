@@ -1,39 +1,41 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar as NavbarBS, Nav, Container } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
-function MyNavbar() {
+function Navbar() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+    <NavbarBS bg="dark" variant="dark" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand href="#home">Mattéo Ventura</Navbar.Brand>
+        <NavbarBS.Brand as={NavLink} to="/">
+          Ventura Mattéo
+        </NavbarBS.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link href="#home" active={window.location.hash === '#home' || window.location.hash === ''}>
+        <NavbarBS.Toggle aria-controls="basic-navbar-nav" />
+        <NavbarBS.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto text-uppercase">
+            <Nav.Link as={NavLink} to="/" end>
               Accueil
             </Nav.Link>
-            <Nav.Link href="#about" active={window.location.hash === '#about'}>
+            <Nav.Link as={NavLink} to="/a-propos">
               À propos
             </Nav.Link>
-            <Nav.Link href="#services" active={window.location.hash === '#services'}>
+            <Nav.Link as={NavLink} to="/services">
               Services
             </Nav.Link>
-            <Nav.Link href="#portfolio" active={window.location.hash === '#portfolio'}>
+            <Nav.Link as={NavLink} to="/portfolio">
               Portfolio
             </Nav.Link>
-            <Nav.Link href="#contact" active={window.location.hash === '#contact'}>
+            <Nav.Link as={NavLink} to="/contact">
               Contact
             </Nav.Link>
-            <Nav.Link href="#mentions" active={window.location.hash === '#mentions'}>
+            <Nav.Link as={NavLink} to="/mentions-legales">
               Mentions légales
             </Nav.Link>
           </Nav>
-        </Navbar.Collapse>
+        </NavbarBS.Collapse>
       </Container>
-    </Navbar>
+    </NavbarBS>
   );
 }
 
-export default MyNavbar;
+export default Navbar;

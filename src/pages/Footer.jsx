@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -16,13 +17,13 @@ function Footer() {
               Email : matteo.ventura@example.com
             </p>
             <div className="mt-3">
-              <a href="https://github.com/MacFly-99" target="_blank" rel="noopener noreferrer" className="social-icon me-3 fs-4">
+              <a href="https://github.com/ton-github" target="_blank" rel="noopener noreferrer" className="social-icon me-3 fs-4">
                 <i className="bi bi-github"></i>
               </a>
               <a href="https://twitter.com/ton-twitter" target="_blank" rel="noopener noreferrer" className="social-icon me-3 fs-4">
                 <i className="bi bi-twitter"></i>
               </a>
-              <a href="https://linkedin.com/in/Matteo Ventura" target="_blank" rel="noopener noreferrer" className="social-icon fs-4">
+              <a href="https://linkedin.com/in/ton-linkedin" target="_blank" rel="noopener noreferrer" className="social-icon fs-4">
                 <i className="bi bi-linkedin"></i>
               </a>
             </div>
@@ -32,16 +33,16 @@ function Footer() {
           <Col md={4} className="mb-4 mb-md-0">
             <h5 className="fw-bold mb-3">Liens utiles</h5>
             <ul className="list-unstyled">
-              <li><a href="#home" className="text-white text-decoration-none footer-link">Accueil</a></li>
-              <li><a href="#about" className="text-white text-decoration-none footer-link">À propos</a></li>
-              <li><a href="#services" className="text-white text-decoration-none footer-link">Services</a></li>
-              <li><a href="#portfolio" className="text-white text-decoration-none footer-link">Portfolio</a></li>
-              <li><a href="#contact" className="text-white text-decoration-none footer-link">Contact</a></li>
-              <li><a href="#mentions" className="text-white text-decoration-none footer-link">Mentions légales</a></li>
+              <li><NavLink to="/" className="text-white text-decoration-none footer-link">Accueil</NavLink></li>
+              <li><NavLink to="/a-propos" className="text-white text-decoration-none footer-link">À propos</NavLink></li>
+              <li><NavLink to="/services" className="text-white text-decoration-none footer-link">Services</NavLink></li>
+              <li><NavLink to="/portfolio" className="text-white text-decoration-none footer-link">Portfolio</NavLink></li>
+              <li><NavLink to="/contact" className="text-white text-decoration-none footer-link">Contact</NavLink></li>
+              <li><NavLink to="/mentions-legales" className="text-white text-decoration-none footer-link">Mentions légales</NavLink></li>
             </ul>
           </Col>
 
-          {/* Colonne 3 : Dernières réalisations */}
+          {/* Colonne 3 : Dernières réalisations (liens externes ou internes selon tes projets) */}
           <Col md={4}>
             <h5 className="fw-bold mb-3">Mes dernières réalisations</h5>
             <ul className="list-unstyled">
