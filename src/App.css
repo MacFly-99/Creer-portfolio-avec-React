@@ -168,3 +168,19 @@ strong {
   font-weight: bold;
   color: white !important;
 }
+
+
+
+/* IMAGES */
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
