@@ -63,6 +63,10 @@ strong {
   font-weight: 500;
 }
 
+
+
+/* NAVBAR */
+
 /* Majuscules pour tous les liens du menu */
 .navbar-nav .nav-link {
   text-transform: uppercase;
