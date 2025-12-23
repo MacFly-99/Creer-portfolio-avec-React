@@ -15,7 +15,7 @@ function About() {
                 bottom: '-10px',
                 left: 0,
                 width: '520px',
-                height: '5px',
+                height: '4px',
                 backgroundColor: '#0d6efd'
               }}></span>
             </h2>
@@ -28,7 +28,7 @@ function About() {
                 bottom: '-10px',
                 right: 0,
                 width: '520px',
-                height: '5px',
+                height: '4px',
                 backgroundColor: '#0d6efd'
               }}></span>
             </h2>

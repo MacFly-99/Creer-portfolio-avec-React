@@ -35,8 +35,8 @@ function Services() {
             </p>
             <div style={{
               width: '500px',
-              height: '4px',
-              backgroundColor: '#00d4ff',
+              height: '6px',
+              backgroundColor: '#0d6efd',
               margin: '0 auto'
             }}></div>
           </div>

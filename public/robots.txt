@@ -1,3 +1,7 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /mentions-legales
+
+# Autorise tout le reste du site
+Allow: /
+
+Sitemap: https://ton-site.com/sitemap.xml
